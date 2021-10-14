@@ -15,3 +15,4 @@ def insertionSort(listData: list, increasingOrder=True):
                 listData[i + 1] = listData[i]
                 i -= 1
             listData[i + 1] = value
+

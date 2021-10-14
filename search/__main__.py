@@ -1,6 +1,5 @@
-from binarySearch import binarySearch
-from sequentialSearch import sequentialSearch
-from insertionSort import insertionSort
+from searchTechniques import *
+from sortValues import insertionSort
 from random import randint
 
 while True:
