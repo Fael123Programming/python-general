@@ -1,5 +1,6 @@
-from searchTechniques import *
-from sortValues import insertionSort
+from searchTechniques.binarySearch import binarySearch
+from searchTechniques.linearSearch import sequentialSearch
+from sortMethods.insertionSort import insertionSort
 from random import randint
 
 while True:
@@ -25,7 +26,6 @@ while True:
             if c == 50:
                 print()
                 c = 0
-        print("".center(150, "-"))
     elif opt == "2":
         while True:
             num = input("Number in range (0 - 1000000): ")

@@ -1,6 +1,6 @@
 def binarySearch(listData: list, data: int):
-    low = 0  # First position of the list.
-    high = len(listData) - 1  # Last position of the list.
+    low = 0
+    high = len(listData) - 1
     while low <= high:
         mid = (low + high) // 2  # In the last repetition, low will be equal to high and then, mid will be equal to them
         if listData[mid] == data:  # If the wanted element is in the middle of the list.
@@ -13,12 +13,30 @@ def binarySearch(listData: list, data: int):
     # will get here because low will be greater than high. This condition means that data does not exist in listData.
 
 
-def sequentialSearch(listData: list, data: int):
-    i = 0
-    while i < len(listData) and listData[i] < data:
-        i += 1
-    if i == len(listData) or listData[i] != data:
-        return -1
-    else:
-        return i
+def binarySearchPossible(listData, data):
+    low = 0
+    high = len(listData) - 1
+    while low <= high:
+        mid = (low + high) // 2
+        if listData[mid] == data:
+            return mid
+        if listData[mid] < data:
+            low = mid + 1
+        else:
+            high = mid - 1
+    return low
+
+
+def binarySearchPossible2(listData, data, fromPos, toPos):
+    low = fromPos
+    high = toPos
+    while low <= high:
+        mid = (low + high) // 2
+        if listData[mid] == data:
+            return mid
+        if listData[mid] < data:
+            low = mid + 1
+        else:
+            high = mid - 1
+    return low
 
