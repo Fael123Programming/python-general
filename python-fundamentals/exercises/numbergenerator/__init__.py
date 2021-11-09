@@ -33,10 +33,10 @@ while True:
                 print("Invalid input")
             else:
                 break
-        srch = input("1 - binary search\n2 - sequential search\n-> ")
+        srch = input("1 - binary python-fundamentals\n2 - sequential python-fundamentals\n-> ")
         while srch != "1" and srch != "2":
             print("Invalid command")
-            srch = input("1 - binary search\n2 - sequential search\n-> ")
+            srch = input("1 - binary python-fundamentals\n2 - sequential python-fundamentals\n-> ")
         if srch == "1":
             position = binarySearch(listData, int(num))
         else:
