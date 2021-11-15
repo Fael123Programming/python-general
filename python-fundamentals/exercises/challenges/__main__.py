@@ -15,11 +15,11 @@ def smallest(a_list: list):
         return n1 if n1 < n2 else n2
 
 
-    def gr(another_list: list, size_of_it: int) -> int:
-        return another_list[0] if size_of_it == 1 else choose(another_list[size_of_it - 1], gr(another_list, size_of_it - 1))
+    def sm(another_list: list, size_of_it: int) -> int:
+        return another_list[0] if size_of_it == 1 else choose(another_list[size_of_it - 1], sm(another_list, size_of_it - 1))
 
 
-    return gr(a_list, len(a_list))
+    return sm(a_list, len(a_list))
 
 
 def even(a_list: list) -> list:
