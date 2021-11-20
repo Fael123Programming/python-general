@@ -1,5 +1,8 @@
+from random import randint
+
+
 class Divination:
-    EASY, INTERMEDIATE, HARD = 1, 2, 3
+    EASY, INTERMEDIATE, HARD = 1, 2, 3  # static variables: from class.
 
     def __init__(self, number, mode):
         self.number = number
@@ -15,7 +18,7 @@ class Divination:
     def __str__(self) -> str:
         return "Divination object{{number={}, chances={}}}".format(self.number, self.chances)
 
-    def start(self) -> None:
+    def start(self):
         from time import sleep
 
         def clean():
@@ -33,7 +36,7 @@ class Divination:
                 value = int(input("Guess a value: "))
                 if value == self.number:
                     print("You got it!")
-                    exit(0)
+                    return
                 elif value > self.number:
                     print("You entered a value greater than the target!")
                 elif value < self.number:
@@ -48,3 +51,11 @@ class Divination:
                 clean()
         print("Unfortunately, your chances have run out")
 
+
+def play():
+    mode = input("Choose a game mode\n1. Easy\n2. Intermediate\n3. Hard\n-> ")
+    if mode != "1" and mode != "2" and mode != "3":
+        print("Unrecognized mode")
+        exit(0)
+    game = Divination(randint(0, 100), int(mode))
+    game.start()

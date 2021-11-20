@@ -2,7 +2,7 @@
 # In Python, they are: lists, tuples and ranges.
 # They can mutable or immutable: only lists are mutable, that is, their elements can be modified and changed after 
 # it has been created.
-def printList(a_list):
+def print_list(a_list):
     for item in a_list:
         print(item)
 
@@ -38,7 +38,7 @@ names.extend(range(0, 10, 2))
 print(names)
 print(names + [10, 50, 100])
 print(names)
-printList(names)
+print_list(names)
 myTuple = 1, 2, 3, "Jesus I cannot forget you notime"  # You decide if you will use parentheses!
 print(type(myTuple))
 sequence_of_numbers = tuple(["one", "thousand", "thirty-three"])
@@ -50,3 +50,7 @@ print(tup1)
 inner_list.clear()
 inner_list.append("Did not I say it?")
 print(tup1)
+symbs = ["|" for c in range(5)]
+symbs2 = list("+" * 5)
+print(symbs)
+print(symbs2)
