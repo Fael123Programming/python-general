@@ -1,6 +1,5 @@
 from time import sleep
 
-
 def msg(text):
     print("-" * 50)
     print(text.center(50))
