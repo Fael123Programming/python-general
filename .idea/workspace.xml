@@ -5,146 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2bd3cc5c-f543-4b69-a752-b253ddea3fce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/.idea/py.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/design_patterns/gof/creational/abstract_factory/__main__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/design_patterns/gof/structural/adapter/adapter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/design_patterns/gof/structural/adapter/existing_class.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/design_patterns/gof/structural/adapter/service.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/math/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/math/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/math/.idea/math.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/math/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/math/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/math/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/math/dividersOf.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/math/factorial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/math/isItPrime.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/on-data/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/on-data/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/on-data/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/on-data/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/on-data/.idea/on_data.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/on-data/datasets/kc_house_data.csv/kc_house_data.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/on-data/ex01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/on-data/ex02.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/on-data/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/python_fundamentals/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/python_fundamentals/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/python_fundamentals/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/python_fundamentals/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/python_fundamentals/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/python_fundamentals/.idea/python-fundamentals.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/python_fundamentals/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/python_fundamentals/compiling/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/python_fundamentals/compiling/program.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/python_fundamentals/exercises/challenges/__main__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/python_fundamentals/exercises/games/divination.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/python_fundamentals/exercises/games/file_handler.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/python_fundamentals/exercises/games/hangman.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/python_fundamentals/exercises/games/menu.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/python_fundamentals/exercises/games/root_file.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/python_fundamentals/exercises/games/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/python_fundamentals/exercises/games/words_and_hints.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/python_fundamentals/exercises/insertion-case-worst-case/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/python_fundamentals/exercises/number-generator/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/python_fundamentals/exercises/plan-point/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/python_fundamentals/exercises/worst-cases-search/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/python_fundamentals/language_syntax/built_ins/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/python_fundamentals/language_syntax/dictionaries/__main__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/python_fundamentals/language_syntax/files/file_functions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/python_fundamentals/language_syntax/files/test_file.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/python_fundamentals/language_syntax/functions/__main__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/python_fundamentals/language_syntax/operators/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/python_fundamentals/language_syntax/sequences/__main__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/python_fundamentals/language_syntax/sets/__main__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/python_fundamentals/language_syntax/with/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/python_fundamentals/oo/bank_system/account_01/account_functions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/python_fundamentals/oo/bank_system/account_01/test_account_functions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/python_fundamentals/oo/bank_system/account_02/account.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/python_fundamentals/oo/bank_system/account_02/test_class_account.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/python_fundamentals/oo/bank_system/account_03/account.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/python_fundamentals/oo/bank_system/account_03/customer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/python_fundamentals/oo/bank_system/account_03/historic.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/python_fundamentals/oo/bank_system/account_03/test_class_account_with_constructor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/python_fundamentals/oo/methods/abstract_methods/a_better_way.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/python_fundamentals/oo/methods/abstract_methods/abstract.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/python_fundamentals/search_techniques/binarySearch/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/python_fundamentals/search_techniques/linearSearch/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/python_fundamentals/sort_methods/insertionSort/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/py.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/py.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design_patterns/gof/creational/abstract_factory/__main__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design_patterns/gof/structural/adapter/adapter.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design_patterns/gof/structural/adapter/existing_class.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design_patterns/gof/structural/adapter/service.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/math/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/math/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/math/.idea/math.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/math/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/math/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/math/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/math/dividersOf.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/math/factorial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/math/isItPrime.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/on-data/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/on-data/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/on-data/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/on-data/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/on-data/.idea/on_data.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/on-data/datasets/kc_house_data.csv/kc_house_data.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/on-data/ex01.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/on-data/ex02.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/on-data/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py_charm_reference_of_possible_quick_commands.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_fundamentals/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_fundamentals/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_fundamentals/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_fundamentals/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_fundamentals/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_fundamentals/.idea/python-fundamentals.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_fundamentals/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_fundamentals/compiling/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_fundamentals/compiling/program.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_fundamentals/exercises/challenges/__main__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_fundamentals/exercises/games/divination.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_fundamentals/exercises/games/file_handler.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_fundamentals/exercises/games/hangman.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_fundamentals/exercises/games/menu.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_fundamentals/exercises/games/root_file.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_fundamentals/exercises/games/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_fundamentals/exercises/games/words_and_hints.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_fundamentals/exercises/insertion-case-worst-case/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_fundamentals/exercises/number-generator/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_fundamentals/exercises/plan-point/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_fundamentals/exercises/worst-cases-search/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_fundamentals/language_syntax/built_ins/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_fundamentals/language_syntax/dictionaries/__main__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_fundamentals/language_syntax/files/file_functions.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_fundamentals/language_syntax/files/test_file.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_fundamentals/language_syntax/functions/__main__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_fundamentals/language_syntax/operators/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_fundamentals/language_syntax/sequences/__main__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_fundamentals/language_syntax/sets/__main__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_fundamentals/language_syntax/with/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_fundamentals/oo/bank_system/account_01/account_functions.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_fundamentals/oo/bank_system/account_01/test_account_functions.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_fundamentals/oo/bank_system/account_02/account.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_fundamentals/oo/bank_system/account_02/test_class_account.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_fundamentals/oo/bank_system/account_03/account.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_fundamentals/oo/bank_system/account_03/test_class_account_with_constructor.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_fundamentals/search_techniques/binarySearch/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_fundamentals/search_techniques/linearSearch/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_fundamentals/sort_methods/insertionSort/__init__.py" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/.idea/vcs.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,10 +40,10 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../jogo-da-forca" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.test_class_account_with_constructor (1)">
+  <component name="RunManager" selected="Python.main">
     <configuration name="__init__ (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="py" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -225,7 +88,6 @@
       <method v="2" />
     </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
-      <module name="py" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -233,10 +95,10 @@
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <module name="" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
