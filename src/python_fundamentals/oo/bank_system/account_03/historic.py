@@ -1,5 +1,4 @@
 from datetime import datetime
-from account import Account
 
 
 class Historic:
@@ -14,25 +13,18 @@ class Historic:
         self._transactions = list()
 
     def record_deposit(self, quantity):
-        if not (isinstance(quantity, float) or isinstance(quantity, int)):
-            raise ValueError("quantity must be either a floating-point number or an integer")
         self._transactions.append(f"Deposit of ${quantity} - Date and time: {datetime.now()}")
 
     def record_withdraw(self, quantity):
-        if not (isinstance(quantity, float) or isinstance(quantity, int)):
-            raise ValueError("quantity must be either a floating-point number or an integer")
         self._transactions.append(f"Withdraw of ${quantity} - Date and time: {datetime.now()}")
 
     def record_transference(self, origin, target, quantity):
-        # origin and target are accounts.
-        if not (isinstance(origin, Account) or isinstance(target, Account)):
-            raise ValueError("origin and target must be accounts")
-        if not (isinstance(quantity, float) or isinstance(quantity, int)):
-            raise ValueError("quantity must be a floating-point or an integer number")
         self._transactions.append(
-            f"Transference of ${quantity} from this account to account {target.number} of agency {target.agency} - Date and time: {datetime.now()}")
+            f"Transference of ${quantity} from this account to account {target.number} of agency {target.agency} - "
+            f"Date and time: {datetime.now()}")
         target.historic.transactions.append(
-            f"Transference of ${quantity} from account {origin.number} of agency {origin.agency} to this account - Date and time: {datetime.now()}")
+            f"Transference of ${quantity} from account {origin.number} of agency {origin.agency} to this account - "
+            f"Date and time: {datetime.now()}")
 
     def __str__(self):
         information = "----------------------------------------------------"

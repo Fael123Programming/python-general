@@ -1,12 +1,11 @@
-from customer import Customer
-from historic import Historic
+from python_fundamentals.oo.bank_system.account_03.historic import Historic
 
 
 class Account:
     """
     The class account represents a bank account, its attributes and behaviour. 
     As it handles money mathematical operations are performed inside an 
-    object of this class. Also, check of data and related protocols."
+    object of this class. Also, check of data and related protocols.
     """
     _total_of_accounts = 0  # Class variable
     # We will need a static method or class method to get it accessible either through an object or the class itself:
@@ -26,8 +25,6 @@ class Account:
     def __init__(self, owner, number: str, agency: str, limit=1000.0):
         # See that all instance methods have 'self' as first argument.
         # In this method, we perceive that the object was already created by __new__().
-        if not isinstance(owner, Customer):
-            raise ValueError("owner must be an instance of Customer")
         # All following attributes are of "private" access.
         # To access them, you would have to use: <object>._Account<attribute_name_with_underscores>.
         # When an attribute is defined with '__' Python will automatically rename it as written above.
@@ -45,8 +42,6 @@ class Account:
         # passed to this constructor function.
 
     def deposit(self, quantity: float, record=True) -> bool:
-        if not (isinstance(quantity, float) or isinstance(quantity, int)):
-            raise ValueError("quantity must be a floating-point or an integer number")
         if quantity < 0 or self._balance + quantity > self._limit:
             return False  # It did not work...
         self._balance += quantity
@@ -55,8 +50,6 @@ class Account:
         return True
 
     def withdraw(self, quantity: float, record=True) -> bool:
-        if not (isinstance(quantity, float) or isinstance(quantity, int)):
-            raise ValueError("Argument must be a floating-point or an integer number")
         if quantity < 0 or self._balance < quantity:
             return False  # It did not work...
         self._balance -= quantity
@@ -65,11 +58,6 @@ class Account:
         return True
 
     def transfer_to(self, target, quantity: float) -> bool:
-        # 'target' must be another account
-        if not isinstance(target, Account):
-            raise ValueError("target must be another account")
-        if not (isinstance(quantity, float) or isinstance(quantity, int)):
-            raise ValueError("quantity must be a floating-point or an integer number")
         if quantity < 0:
             return False
         if self.withdraw(quantity, False):
@@ -79,8 +67,12 @@ class Account:
             self.deposit(quantity, False)
         return False  # Either withdraw() or deposit() did not work.
 
-    # Properties are used to either get object attributes or set new values to them in a more
-    # convenient way without having to create strict getters and setters.
+    # Properties are used to either get object attributes or set new values to them
+    # in a more convenient way without having to create strict getters and setters.
+
+    def update(self, tax: float):
+        self._balance += self._balance * tax
+        return self._balance
 
     @property
     def owner(self):
@@ -110,13 +102,11 @@ class Account:
     def ident(self):
         return self._ident
 
-    # Setters of some attributes in Python style usign properties.
+    # Setters of some attributes in Python style using properties.
     # When you try to assign a new value into an object attribute its setter will be called up.
 
     @owner.setter
     def owner(self, owner):
-        if not isinstance(owner, Customer):
-            raise ValueError("owner must be of class Customer")
         self._owner = owner
 
     @number.setter
@@ -136,18 +126,18 @@ class Account:
     @classmethod
     def get_total_of_accounts(cls):
         return cls._total_of_accounts
-        # Static methods can be called either by the class itself or an instance of the class.
-        # They are not linked to a class of an object but are like common functions outside a
-        # class. In inheritance context, static methods cannot be overridden by children of a class.
-        # Static methods are immutable.
+        # A class method refers specifically to the class it belongs to.
+        # See that it takes as first argument an implicit object which refers to the class.
+        # Even though this method can be called by instances like a static method, but
+        # it can be overridden by children of this class in inheritance context.
 
     @staticmethod
     def class_name():
         return "Account from module account"
-        # A class method refers specifically to the class it belongs to.
-        # See that it takes as first argument an implicity object which refers to the class.
-        # Even though this method can be called by instances like a static method but
-        # it can be overridden by children of this class in inheritance context.
+        # Static methods can be called either by the class itself or an instance of the class.
+        # They are not linked to a class of an object but are like common functions outside a
+        # class. In inheritance context, static methods cannot be overridden by children of a class.
+        # Static methods are immutable.
 
     # Magic methods.
 
@@ -156,7 +146,8 @@ class Account:
         This method is called when a string 
         representation of an account object is required.
         """
-        return f"{{owner: {self._owner}, number: {self._number}, agency: {self._agency}, limit: {self._limit}, balance: {self._balance}}}"
+        return f"{{owner: {self._owner}, number: {self._number}, agency: {self._agency}, limit: {self._limit}, "\
+               f"balance: {self._balance}, id: {self._ident}}}"
 
     def __eq__(self, anotherAccount) -> bool:
         """
@@ -164,6 +155,50 @@ class Account:
         It will be called since a "==" operator is
         being used to compare an account with another object.
         """
-        if not isinstance(anotherAccount, Account):
-            return False
-        return self._number == anotherAccount._number and self._agency == anotherAccount._agency
+        return self._number == anotherAccount.number and self._agency == anotherAccount.agency
+
+
+class CurrentAccount(Account):
+
+    def __init__(self, owner, number: str, agency: str, limit=1000.00):
+        super().__init__(owner, number, agency, limit)
+
+    # Overridden
+    def deposit(self, quantity: float, record=True):
+        return super().deposit(quantity - 0.1, record)  # 0.1 is the bank tax.
+
+    # Overridden
+    def update(self, tax: float):
+        super().update(tax * 2.00)
+        return self._balance
+
+
+class SavingsAccount(Account):
+
+    def __init__(self, owner, number: str, agency: str, limit=1000.0):
+        super().__init__(owner, number, agency, limit)
+
+    # Overridden
+    def update(self, tax: float):
+        super().update(tax * 3.00)
+        return self._balance
+
+
+if __name__ == "__main__":
+    acc1 = Account("Rafael Fonseca", "1", "agency 1", 5000)
+    acc2 = CurrentAccount("Rafael Fonseca", "2", "agency 1", 10000)
+    acc3 = SavingsAccount("Rafael Fonseca", "3", "agency 1", 10000)
+
+    acc1.deposit(1000)
+    acc2.deposit(1000)
+    acc3.deposit(1000)
+
+    acc1.update(0.1)
+    acc2.update(0.1)
+    acc3.update(0.1)
+
+    print(acc1)
+    print(acc2)
+    print(acc3)
+
+    print(acc1.historic)

@@ -54,3 +54,5 @@ symbs = ["|" for c in range(5)]
 symbs2 = list("+" * 5)
 print(symbs)
 print(symbs2)
+print(chr(900))
+print(ord(chr(900)))

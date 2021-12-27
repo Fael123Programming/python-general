@@ -6,26 +6,26 @@
 #This type of file contains various collected data organized in a table with rows and columns
 #read_csv(list_of_parameters) -> see documentation: https://pandas.pydata.org/docs/reference/api/pandas.read_csv.html
 
-import pandas as pd #Importation with direct nickname
-
-data = pd.read_csv("datasets/kc_house_data.csv/kc_house_data.csv") #The basic and only-required parameter is the path which points toward your dataset
-#showing the first 5 columns with their respective information table
-print(data.head())
-
-#Showing the quantity of rows and columns of that very file we just opened
-print(data.shape) #(rowns,columns)
-
-#Showing the number of columns
-print(data.columns)
-
-#Showing ordained by column 'price'
-print(data.sort_values('price')) #price is the specific column
-
-#Do the same though it shows only the columns I want
-print(data[['price','bedrooms','id']].sort_values('price',ascending=True))
-
-#Now,descending
-print(data[['price','bathrooms','id']].sort_values('price',ascending=False))
+# import pandas as pd #Importation with direct nickname
+#
+# data = pd.read_csv("datasets/kc_house_data.csv/kc_house_data.csv") #The basic and only-required parameter is the path which points toward your dataset
+# #showing the first 5 columns with their respective information table
+# print(data.head())
+#
+# #Showing the quantity of rows and columns of that very file we just opened
+# print(data.shape) #(rowns,columns)
+#
+# #Showing the number of columns
+# print(data.columns)
+#
+# #Showing ordained by column 'price'
+# print(data.sort_values('price')) #price is the specific column
+#
+# #Do the same though it shows only the columns I want
+# print(data[['price','bedrooms','id']].sort_values('price',ascending=True))
+#
+# #Now,descending
+# print(data[['price','bathrooms','id']].sort_values('price',ascending=False))
 
 #To grab columns: data[['name1','name2',...,'nameN']]
 '''

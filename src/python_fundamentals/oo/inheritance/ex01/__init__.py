@@ -31,7 +31,7 @@ class Employee:
         self._salary = salary
 
     def __str__(self):
-        return f"Name: {self._name}\tCpf: {self._cpf}\tSalary: ${self._salary}"
+        return f"Name: {self._name}\tCpf: {self._cpf}  \tSalary: ${self._salary}"
 
 
 class Manager:
@@ -97,4 +97,4 @@ class Manager:
         self._password = password
 
     def __str__(self):
-        return f"Name: {self._name}\tCpf: {self._cpf}\tSalary: ${self._salary}"
+        return f"Name: {self._name}\tCpf: {self._cpf} \tSalary: ${self._salary}"
