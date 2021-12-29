@@ -9,8 +9,8 @@ class Address:
         self._street = street
         self._number = number
 
-    def __init__(self):
-        pass
+    # def __init__(self): Not allowed!!!
+    #     pass
 
     @property
     def country(self):
@@ -51,3 +51,12 @@ class Address:
     @number.setter
     def number(self, number: int):
         self._number = number
+
+    def __str__(self):
+        return f"{{country: {self._country}, state: {self._state}, city: {self._city}, " \
+               f"neighbourhood: {self._neighbourhood}, street: {self._street}, number: {self._number}}}"
+
+    def __repr__(self):  # To be used with eval(repr(self._address)).
+        return f"Address(\"{self._country}\", \"{self._state}\", \"{self._city}\", \"{self._neighbourhood}\", " \
+               f"\"{self._street}\", \"{self._number}\")"
+

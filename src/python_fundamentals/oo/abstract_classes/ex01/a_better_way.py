@@ -1,4 +1,5 @@
 import abc  # Abstract Base Class module.
+# All abstract classes in Python inherit from abc.ABC.
 
 
 class BasePizza(abc.ABC):
