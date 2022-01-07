@@ -52,7 +52,7 @@ class Point:
 
     def __mul__(self, anotherPoint):
         self.type_check(anotherPoint)
-        return self._x * anotherPoint.x + self._y * anotherPoint.y  # Actually, scalar product.
+        return self._x * anotherPoint.x + self._y * anotherPoint.y  # Actually, scalar item.
 
     def __truediv__(self, anotherPoint):
         self.type_check(anotherPoint)
@@ -93,7 +93,7 @@ if __name__ == "__main__":
     print("Another point: x=", doubled_point.x, " y=", doubled_point.y, " then, ", doubled_point)
     print("Sum:", point_obj + doubled_point)
     print("Subtraction:", point_obj - doubled_point)
-    print("Scalar product:", point_obj * doubled_point)
+    print("Scalar item:", point_obj * doubled_point)
     print("Division:", point_obj / doubled_point)
     print("Module:", point_obj % doubled_point)
     print([1, 2, 6] + [19, "Ok", "Java is better than C"] + ["Python is better than Java", 12])

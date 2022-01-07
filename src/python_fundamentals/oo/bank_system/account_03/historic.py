@@ -5,7 +5,7 @@ class Historic:
     """
     The class Historic represents objects to be used to keep critical information
     about money transference in an account such as deposits and withdraws.
-    Each account must be composed of an object of this class.
+    Each account must be composed of an object of self class.
     """
 
     def __init__(self):
@@ -20,10 +20,10 @@ class Historic:
 
     def record_transference(self, origin, target, quantity):
         self._transactions.append(
-            f"Transference of ${quantity} from this account to account {target.number} of agency {target.agency} - "
+            f"Transference of ${quantity} from self account to account {target.number} of agency {target.agency} - "
             f"Date and time: {datetime.now()}")
         target.historic.transactions.append(
-            f"Transference of ${quantity} from account {origin.number} of agency {origin.agency} to this account - "
+            f"Transference of ${quantity} from account {origin.number} of agency {origin.agency} to self account - "
             f"Date and time: {datetime.now()}")
 
     def __str__(self):
