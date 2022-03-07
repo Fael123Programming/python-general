@@ -5,30 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2bd3cc5c-f543-4b69-a752-b253ddea3fce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/python-general.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/python_fundamentals/oo/app/data_persistence/items.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/python_fundamentals/oo/app/item/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/python_fundamentals/oo/difference_class_methods_and_static_methods/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/python_fundamentals/oo/multiple_inheritance/ex01/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/python_fundamentals/oo/multiple_inheritance/ex01/authenticable/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/python_fundamentals/oo/multiple_inheritance/ex01/director/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/python_fundamentals/oo/multiple_inheritance/ex01/functionary/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/python_fundamentals/oo/multiple_inheritance/ex01/internal_system/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/python_fundamentals/oo/multiple_inheritance/ex01/manager/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/python_fundamentals/oo/multiple_inheritance/ex02/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/python_fundamentals/oo/virtual_subclasses/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/python_fundamentals/oo/virtual_subclasses/mix-ins/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/python_fundamentals/exercises/prime_verifier/prime_verifier.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/python_fundamentals/oo/app/classes/item.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/python_fundamentals/oo/app/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/python-general.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python-general.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/python_fundamentals/exercises/worst-cases-search/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python_fundamentals/exercises/worst-cases-search/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/python_fundamentals/language_syntax/files/test_file.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/python_fundamentals/language_syntax/files/test_file.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/python_fundamentals/oo/abstract_classes/ex01/a_better_way.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python_fundamentals/oo/abstract_classes/ex01/a_better_way.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/python_fundamentals/oo/bank_system/account_03/historic.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python_fundamentals/oo/bank_system/account_03/historic.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/python_fundamentals/oo/inheritance/ex04/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python_fundamentals/oo/inheritance/ex04/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/python_fundamentals/search_techniques/binarySearch/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python_fundamentals/search_techniques/binary_search/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/python_fundamentals/search_techniques/linearSearch/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python_fundamentals/search_techniques/sequential_search/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/python_fundamentals/oo/app/item/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python_fundamentals/oo/app/classes/phone.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,12 +51,13 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/python_fundamentals/oo/app/classes" />
       <recent name="$PROJECT_DIR$/src/python_fundamentals/oo/virtual_subclasses" />
       <recent name="$PROJECT_DIR$/src/python_fundamentals/oo/multiple_inheritance/ex01" />
       <recent name="$PROJECT_DIR$/src/python_fundamentals/oo/multiple_inheritance/functionary" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.__init__ (3)">
+  <component name="RunManager" selected="Python.prime_verifier">
     <configuration name="__init__ (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python-general" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -87,48 +71,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/python_fundamentals/oo/virtual_subclasses/mix-ins/__init__.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="__init__ (3)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python-general" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/python_fundamentals/oo/app/item" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/python_fundamentals/oo/app/item/__init__.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="__init__ (4)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python-general" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/python_fundamentals/oo/multiple_inheritance/ex03" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/python_fundamentals/oo/multiple_inheritance/ex03/__init__.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -158,7 +100,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="__init__" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python-general" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -166,11 +108,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/python_fundamentals/oo/virtual_subclasses" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/python_fundamentals/oo/app" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/python_fundamentals/oo/virtual_subclasses/__init__.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/python_fundamentals/oo/app/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -200,13 +142,55 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="phone" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python-general" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/python_fundamentals/oo/app/item" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/python_fundamentals/oo/app/classes/phone.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="prime_verifier" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python-general" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/python_fundamentals/exercises/prime_verifier" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/python_fundamentals/exercises/prime_verifier/prime_verifier.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.__init__ (3)" />
+        <item itemvalue="Python.prime_verifier" />
+        <item itemvalue="Python.main (1)" />
+        <item itemvalue="Python.phone" />
         <item itemvalue="Python.__init__ (5)" />
         <item itemvalue="Python.__init__ (2)" />
-        <item itemvalue="Python.__init__ (4)" />
-        <item itemvalue="Python.__init__" />
       </list>
     </recent_temporary>
   </component>
