@@ -5,13 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2bd3cc5c-f543-4b69-a752-b253ddea3fce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/python_fundamentals/exceptions/account.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/python_fundamentals/exceptions/exceptions_account.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/python_fundamentals/exceptions/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/python_fundamentals/exceptions/testing_exceptions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/python_fundamentals/exceptions/testing_exceptions2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/python_fundamentals/exceptions/testing_exceptions3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/python_fundamentals/oo/bank_system/main/account_owner.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/python_fundamentals/oo/bank_system/main/accounts.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/python_fundamentals/oo/bank_system/main/address.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/python_fundamentals/oo/bank_system/main/cash_machine.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/python_fundamentals/oo/bank_system/main/exceptions.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/python_fundamentals/oo/bank_system/main/account_owner/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/python_fundamentals/oo/bank_system/main/accounts/__init__.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

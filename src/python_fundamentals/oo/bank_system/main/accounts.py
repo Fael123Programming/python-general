@@ -1,15 +1,17 @@
 from abc import ABC, abstractmethod
-from python_fundamentals.oo.bank_system.main.account_owner import Owner
+from account_owner import AccountOwner
+from exceptions import InsufficientFundsError
 
 
 class Account(ABC):
     _number_of_accounts = 0
 
-    __slots__ = ["_owner", "_number", "_agency", "_value_special_check", "_current_balance"]
+    __slots__ = ["_owner", "_number", "_password", "_agency", "_value_special_check", "_current_balance"]
 
-    def __init__(self, owner, number, agency, value_special_check):
+    def __init__(self, owner: AccountOwner, number: int, password: int, agency: str, value_special_check=0):
         self._owner = owner
         self._number = number
+        self._password = password
         self._agency = agency
         self._value_special_check = value_special_check
         self._current_balance = 0
@@ -17,9 +19,9 @@ class Account(ABC):
 
     def withdraw(self, quantity):
         if quantity <= 0:
-            raise ValueError("invalid quantity")
+            raise ValueError("invalid quantity:", quantity)
         if quantity > self._current_balance + self._value_special_check:
-            raise ValueError("insufficient funds")
+            raise InsufficientFundsError()
         self._current_balance -= quantity
 
     def transfer(self, target, quantity):
@@ -28,7 +30,7 @@ class Account(ABC):
 
     def deposit(self, quantity):
         if quantity <= 0:
-            raise ValueError("invalid quantity")
+            raise ValueError("invalid quantity:", quantity)
         self._current_balance += quantity
 
     # Get properties
@@ -39,6 +41,10 @@ class Account(ABC):
     @property
     def number(self):
         return self._number
+
+    @property
+    def password(self):
+        return self._password
 
     @property
     def agency(self):
@@ -81,8 +87,7 @@ class Account(ABC):
         self._current_balance += self._current_balance * tax
 
     def __str__(self):
-        return f"Responsible: {self._owner.name}\nAccount number: {self._number}\nAccount type: {self.get_type()}\n" \
-               f"Current balance: ${self._current_balance}\nAgency: {self._agency}\n"
+        return f"{{owner={self._owner.name}, number={self._number}, agency={self._agency}, value_special_check=${self._value_special_check}, current_balance=${self._current_balance}}}"
 
     def __eq__(self, another_obj):
         return self._number == another_obj.number and self.get_type() == another_obj.get_type()
@@ -94,8 +99,8 @@ class Account(ABC):
 
 class CurrentAccount(Account):
 
-    def __init__(self, owner, number, agency):
-        super().__init__(owner, number, agency, 0)
+    def __init__(self, owner: AccountOwner, number: int, password: int, agency: str):
+        super().__init__(owner, number, password, agency, 0)
 
     def update(self, tax):
         super().update(tax * 2)
@@ -106,8 +111,8 @@ class CurrentAccount(Account):
 
 class SavingsAccount(Account):
 
-    def __init__(self, owner, number, agency):
-        super().__init__(owner, number, agency, 0)
+    def __init__(self, owner: AccountOwner, number: int, password: int, agency: str):
+        super().__init__(owner, number, password, agency, 0)
 
     def update(self, tax):
         super().update(tax * 3)
@@ -118,36 +123,11 @@ class SavingsAccount(Account):
 
 class InvestmentAccount(Account):
 
-    def __init__(self, owner, number, agency):
-        super().__init__(owner, number, agency, 10000)
+    def __init__(self, owner: AccountOwner, number: int, password: int, agency: str):
+        super().__init__(owner, number, password, agency, 10000)
 
     def update(self, tax):
         super().update(tax * 5)
 
     def __repr__(self):
         return super().__repr__()
-
-
-if __name__ == "__main__":
-    c1 = CurrentAccount(Owner("Rafael Fonseca", "St. Avenue 1442 High Hill Los Angeles CA"), 12345, "Cal-1211 GHJ")
-    c2 = SavingsAccount(Owner("Mary Kay", "St. Avenue 1456 Genevieve San Francisco CA"), 8923, "SAN-1010 UIS")
-    print(c1)
-    print(c2)
-    print(c1.get_type(), c2.get_type())
-    print(repr(c1))
-    print(repr(c2))
-    c1.deposit(100000)
-    c2.deposit(100000)
-    c2.transfer(c1, 500)
-    c1.update(0.01)
-    c2.update(0.02)
-    print(c1.current_balance, c2.current_balance)
-    c3 = InvestmentAccount(Owner("Natasha Romano", "Wherever"), 1000, "elsewhere")
-    print()
-    print(c3)
-    c3.deposit(9000000)
-    c3.update(0.05)
-    print(c3.current_balance)
-    c3.transfer(c1, 9000000)
-    print(c1)
-    print(c3)
