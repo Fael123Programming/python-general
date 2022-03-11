@@ -5,14 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2bd3cc5c-f543-4b69-a752-b253ddea3fce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/python_fundamentals/oo/bank_system/main/account_owner.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/python_fundamentals/oo/bank_system/main/accounts.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/python_fundamentals/oo/bank_system/main/address.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/python_fundamentals/oo/bank_system/main/cash_machine.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/python_fundamentals/oo/bank_system/main/exceptions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/python_fundamentals/collections/counter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/python_fundamentals/collections/defaultdict.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/python_fundamentals/collections/deque.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/python_fundamentals/collections/namedtuple.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/python_fundamentals/collections/strdict.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/python_fundamentals/exercises/readingwithcsv/employee.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/python_fundamentals/exercises/readingwithcsv/employees.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/python_fundamentals/exercises/readingwithcsv/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/python_fundamentals/oo/bank_system/main/account_owner/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/python_fundamentals/oo/bank_system/main/accounts/__init__.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +50,9 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -58,8 +63,8 @@
       <recent name="$PROJECT_DIR$/src/python_fundamentals/oo/multiple_inheritance/functionary" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.account">
-    <configuration name="account" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.main (1)">
+    <configuration name="counter" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python-general" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -67,11 +72,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/python_fundamentals/exceptions" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/python_fundamentals/collections" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/python_fundamentals/exceptions/account.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/python_fundamentals/collections/counter.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -80,7 +85,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="defaultdict" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python-general" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -88,11 +93,53 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/python_fundamentals/exceptions" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/python_fundamentals/collections" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/python_fundamentals/exceptions/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/python_fundamentals/collections/defaultdict.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="deque" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python-general" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/python_fundamentals/collections" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/python_fundamentals/collections/deque.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python-general" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/python_fundamentals/exercises/readingwithcsv" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/python_fundamentals/exercises/readingwithcsv/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -122,7 +169,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="testing_exceptions" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="namedtuple" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python-general" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -130,53 +177,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/python_fundamentals/exceptions" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/python_fundamentals/collections" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/python_fundamentals/exceptions/testing_exceptions.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="testing_exceptions2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python-general" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/python_fundamentals/exceptions" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/python_fundamentals/exceptions/testing_exceptions2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="testing_exceptions3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python-general" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/python_fundamentals/exceptions" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/python_fundamentals/exceptions/testing_exceptions3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/python_fundamentals/collections/namedtuple.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -187,11 +192,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.account" />
-        <item itemvalue="Python.testing_exceptions3" />
-        <item itemvalue="Python.testing_exceptions2" />
-        <item itemvalue="Python.testing_exceptions" />
-        <item itemvalue="Python.main (2)" />
+        <item itemvalue="Python.main (1)" />
+        <item itemvalue="Python.namedtuple" />
+        <item itemvalue="Python.deque" />
+        <item itemvalue="Python.counter" />
+        <item itemvalue="Python.defaultdict" />
       </list>
     </recent_temporary>
   </component>

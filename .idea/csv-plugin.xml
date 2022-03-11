@@ -3,6 +3,13 @@
   <component name="CsvFileAttributes">
     <option name="attributeMap">
       <map>
+        <entry key="/src/on-data/datasets/kc_house_data.csv/kc_house_data.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/src/python_fundamentals/oo/app/data_persistence/items.csv">
           <value>
             <Attribute>
