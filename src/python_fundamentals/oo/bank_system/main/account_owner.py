@@ -1,4 +1,4 @@
-from address import Address
+from python_fundamentals.oo.bank_system.main.address import Address
 from datetime import date
 
 

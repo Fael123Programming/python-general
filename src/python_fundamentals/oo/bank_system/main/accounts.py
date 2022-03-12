@@ -1,6 +1,6 @@
 from abc import ABC, abstractmethod
-from account_owner import AccountOwner
-from exceptions import InsufficientFundsError
+from python_fundamentals.oo.bank_system.main.account_owner import AccountOwner
+from python_fundamentals.oo.bank_system.main.exceptions import InsufficientFundsError
 
 
 class Account(ABC):

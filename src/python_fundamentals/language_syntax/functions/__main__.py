@@ -25,16 +25,16 @@ def calculator(n1, n2):
     return dict(sum=n1 + n2, sub=n1 - n2, mult=n1 * n2, div=n1 / n2, pow=n1 ** n2)
 
 
-def sumSub(n1, n2):
+def sum_sub(n1, n2):
     return n1 + n2, n1 - n2
 
 
-def sumSub2(n1, n2):
+def sum_sub2(n1, n2):
     return {"sum": n1 + n2, "sub": n1 - n2}
 
 
-print(sumSub(10, 5))
-print(sumSub2(10, 5))
+print(sum_sub(10, 5))
+print(sum_sub2(10, 5))
 print(get_standardized(a_girl))
 print("-" * 30)
 print(get_standardized(a_girl, id=234))
@@ -60,16 +60,16 @@ def sum(*args):
     return result
 
 
-def showArgs(*args):
+def show_args(*args):
     return args  # This is a tuple; your data is package into it.
 
 
 print("Sum from 1 to 10 is " + str(sum(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)))
 print(sum(90, -50, 60))
-print(showArgs("name", 89, True, 12.22))
+print(show_args("name", 89, True, 12.22))
 listOfNumbers = list(range(-10, 11))
-print(showArgs(listOfNumbers))  # listOfNumbers is considered as the first argument of the tuple args.
-print(showArgs(
+print(show_args(listOfNumbers))  # listOfNumbers is considered as the first argument of the tuple args.
+print(show_args(
     *listOfNumbers))  # Each element in listOfNumbers is considered as one argument passed to the function call.
 print(sum(*range(1, 101)))
 

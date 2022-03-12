@@ -5,16 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2bd3cc5c-f543-4b69-a752-b253ddea3fce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/python_fundamentals/collections/counter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/python_fundamentals/collections/defaultdict.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/python_fundamentals/collections/deque.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/python_fundamentals/collections/namedtuple.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/python_fundamentals/collections/strdict.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/python_fundamentals/exercises/readingwithcsv/employee.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/python_fundamentals/exercises/readingwithcsv/employees.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/python_fundamentals/exercises/readingwithcsv/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/python_fundamentals/exercises/fibonacci/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/python_fundamentals/exercises/readingwithcsv/employees.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/python_fundamentals/language_syntax/raw_strings/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/python_fundamentals/oo/bank_system/main/account_repository/account_collections.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/python_fundamentals/oo/bank_system/main/account_repository/account_repo.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/python_fundamentals/oo/bank_system/main/account_repository/using_current_accounts.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/python_fundamentals/oo/bank_system/main/account_repository/using_savings_account.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/csv-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/python_fundamentals/exercises/readingwithcsv/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python_fundamentals/exercises/readingwithcsv/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/python_fundamentals/language_syntax/functions/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python_fundamentals/language_syntax/functions/__main__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/python_fundamentals/oo/bank_system/main/account_owner.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python_fundamentals/oo/bank_system/main/account_owner.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/python_fundamentals/oo/bank_system/main/accounts.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python_fundamentals/oo/bank_system/main/accounts.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/python_fundamentals/oo/bank_system/main/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python_fundamentals/oo/bank_system/main/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,14 +61,15 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/python_fundamentals/language_syntax" />
+      <recent name="$PROJECT_DIR$/src/python_fundamentals/oo/bank_system/main/account_repository" />
       <recent name="$PROJECT_DIR$/src/python_fundamentals/oo/app/classes" />
       <recent name="$PROJECT_DIR$/src/python_fundamentals/oo/virtual_subclasses" />
       <recent name="$PROJECT_DIR$/src/python_fundamentals/oo/multiple_inheritance/ex01" />
-      <recent name="$PROJECT_DIR$/src/python_fundamentals/oo/multiple_inheritance/functionary" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main (1)">
-    <configuration name="counter" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.main (3)">
+    <configuration name="account_collections" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python-general" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -72,11 +77,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/python_fundamentals/collections" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/python_fundamentals/oo/bank_system/main" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/python_fundamentals/collections/counter.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/python_fundamentals/oo/bank_system/main/account_repository/account_collections.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -85,7 +90,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="defaultdict" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="main (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python-general" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -93,11 +98,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/python_fundamentals/collections" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/python_fundamentals/language_syntax/raw_strings" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/python_fundamentals/collections/defaultdict.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/python_fundamentals/language_syntax/raw_strings/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -106,7 +111,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="deque" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="main (3)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python-general" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -114,32 +119,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/python_fundamentals/collections" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/python_fundamentals/exercises/fibonacci" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/python_fundamentals/collections/deque.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python-general" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/python_fundamentals/exercises/readingwithcsv" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/python_fundamentals/exercises/readingwithcsv/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/python_fundamentals/exercises/fibonacci/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -169,7 +153,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="namedtuple" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="using_current_accounts" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python-general" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -177,11 +161,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/python_fundamentals/collections" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/python_fundamentals/oo/bank_system/main/account_repository" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/python_fundamentals/collections/namedtuple.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/python_fundamentals/oo/bank_system/main/account_repository/using_current_accounts.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="using_savings_account" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python-general" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/python_fundamentals/oo/bank_system/main/account_repository" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/python_fundamentals/oo/bank_system/main/account_repository/using_savings_account.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -192,11 +197,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.main (1)" />
-        <item itemvalue="Python.namedtuple" />
-        <item itemvalue="Python.deque" />
-        <item itemvalue="Python.counter" />
-        <item itemvalue="Python.defaultdict" />
+        <item itemvalue="Python.main (3)" />
+        <item itemvalue="Python.main (2)" />
+        <item itemvalue="Python.using_current_accounts" />
+        <item itemvalue="Python.using_savings_account" />
+        <item itemvalue="Python.account_collections" />
       </list>
     </recent_temporary>
   </component>
