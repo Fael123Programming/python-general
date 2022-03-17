@@ -10,4 +10,4 @@ def calculate_fib(max_numbers: int):
 
 
 if __name__ == "__main__":
-    calculate_fib(0)
+    calculate_fib(19000)

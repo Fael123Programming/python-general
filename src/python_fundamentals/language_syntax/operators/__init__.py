@@ -2,28 +2,36 @@ class Operation:
     def __str__(self):
         return "An Operation object!"
 
-    def shiftRight(self, number, times):
+    @staticmethod
+    def shift_right(number, times):
         return number >> times  # Shift bits rightward!
 
-    def shiftLeft(self, number, times):
+    @staticmethod
+    def shift_left(number, times):
         return number << times  # Shift bits leftward!
 
-    def multiply(self, n1, n2):
+    @staticmethod
+    def multiply(n1, n2):
         return n1 * n2
 
-    def divide(self, n1, n2):
+    @staticmethod
+    def divide(n1, n2):
         return n1 / n2  # It may raise a ZeroDivisionError if n2 is 0
 
-    def divideInt(self, n1, n2):
+    @staticmethod
+    def divide_int(n1, n2):
         return n1 // n2  # It may raise a ZeroDivisionError if n2 is 0
 
-    def sum(self, n1, n2):
+    @staticmethod
+    def sum(n1, n2):
         return n1 + n2
 
-    def sub(self, n1, n2):
+    @staticmethod
+    def sub(n1, n2):
         return n1 - n2
 
-    def potentiation(self, n1, n2):
+    @staticmethod
+    def potentiation(n1, n2):
         return n1 ** n2
 
     def module(self, n1, n2):

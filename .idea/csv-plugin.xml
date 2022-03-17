@@ -17,7 +17,7 @@
             </Attribute>
           </value>
         </entry>
-        <entry key="/src/python_fundamentals/oo/bank_system/main/accounts.csv">
+        <entry key="/src/python_fundamentals/oo/bank_system/main/account_repository/account_repo.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
