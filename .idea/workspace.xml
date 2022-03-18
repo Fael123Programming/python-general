@@ -5,16 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2bd3cc5c-f543-4b69-a752-b253ddea3fce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/python_fundamentals/language_syntax/documentation_exercises/test1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/python_fundamentals/language_syntax/documentation_exercises/test2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/python_fundamentals/language_syntax/documentation_exercises/test_functions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/python_fundamentals/language_syntax/documentation_exercises/test_match.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/python_fundamentals/language_syntax/enums/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/csv-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/python_fundamentals/language_syntax/documentation_exercises/test3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/python_fundamentals/language_syntax/documentation_exercises/test_functions2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/python_fundamentals/language_syntax/documentation_exercises/test_lambda.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/python_fundamentals/exercises/fibonacci/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python_fundamentals/exercises/fibonacci/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/python_fundamentals/language_syntax/operators/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python_fundamentals/language_syntax/operators/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/python_fundamentals/language_syntax/sequences/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python_fundamentals/language_syntax/sequences/__main__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/python_fundamentals/language_syntax/documentation_exercises/test_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python_fundamentals/language_syntax/documentation_exercises/test_functions.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +25,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -64,28 +67,7 @@
       <recent name="$PROJECT_DIR$/src/python_fundamentals/oo/multiple_inheritance/ex01" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.test_functions">
-    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python-general" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/python_fundamentals/language_syntax/enums" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/python_fundamentals/language_syntax/enums/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.test3">
     <configuration name="main (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python-general" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -128,7 +110,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="test3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python-general" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -140,7 +122,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/python_fundamentals/language_syntax/documentation_exercises/test2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/python_fundamentals/language_syntax/documentation_exercises/test3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -170,7 +152,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test_match" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="test_functions2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python-general" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -182,7 +164,28 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/python_fundamentals/language_syntax/documentation_exercises/test_match.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/python_fundamentals/language_syntax/documentation_exercises/test_functions2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_lambda" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python-general" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/python_fundamentals/language_syntax/documentation_exercises" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/python_fundamentals/language_syntax/documentation_exercises/test_lambda.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -193,11 +196,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test3" />
+        <item itemvalue="Python.test_lambda" />
+        <item itemvalue="Python.test_functions2" />
         <item itemvalue="Python.test_functions" />
         <item itemvalue="Python.main (2)" />
-        <item itemvalue="Python.main (1)" />
-        <item itemvalue="Python.test_match" />
-        <item itemvalue="Python.test2" />
       </list>
     </recent_temporary>
   </component>
