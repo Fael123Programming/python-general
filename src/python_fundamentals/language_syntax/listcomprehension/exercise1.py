@@ -24,3 +24,15 @@ if __name__ == "__main__":
     ]
     print([[row[i] for row in matrix] for i in range(4)])
     print(list(zip(*matrix)))
+    data = [190, "a string", 3.123]
+    data[:] = []
+    print(data)
+    data = [1, 2, 3, 4, 5]
+    del data[1]
+    print([x for x in data])
+    del data[1:3]  # deletes a slicing.
+    print([x for x in data])
+    del data[:]
+    print(data)
+    del data
+    # data no longer exists!
