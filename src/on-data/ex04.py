@@ -1,0 +1,20 @@
+if __name__ == "__main__":
+    import pandas as p
+    print("testing csv files")
+    data_frame = p.read_csv("/home/leafar/documents/prg/code/py/python-general/src/on-data/datasets/employees/employees.csv")
+    print(data_frame)
+    print(data_frame.info())
+    print(data_frame.describe())
+    # print(data_frame.sort_values("salary", ascending=False))
+    # print("-"*100)
+    # new_columns = {"name": "nome", "city": "cidade", "country": "país", "role": "função", "salary": "salário"}
+    # data_frame_renamed = data_frame.rename(columns=new_columns, inplace=False)
+    # print(data_frame_renamed)
+    # print(data_frame[["salary", "country"]].groupby("country").sum().sort_values("salary", ascending=False))
+    # data_frame_renamed.to_csv("new_employees.csv")
+    print(data_frame[data_frame.duplicated(keep='first')])
+    data_frame.drop_duplicates(keep='first', inplace=True)
+    print(data_frame)
+    print(data_frame['salary'].min())
+    print(data_frame['salary'].max())
+    print(data_frame['salary'].sum())

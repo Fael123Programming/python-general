@@ -1,5 +1,4 @@
-#Data Extraction and Manipulation
-
+# Data Extraction and Manipulation
 import pandas as pd
 
 data = pd.read_csv("datasets/kc_house_data.csv/kc_house_data.csv")
@@ -18,10 +17,10 @@ data = pd.read_csv("datasets/kc_house_data.csv/kc_house_data.csv")
     -> Create a map which localizes geographically where each house is located
         Note: this map will be an image made up in HTML
 '''
-#(1)
-print(data[['date','id','price']].sort_values('date',ascending=True))
+# (1)
+print(data[['date', 'id', 'price']].sort_values('date', ascending=True))
 
-#(2)
-print(data[['floors']].sort_values('floors',ascending=False)) #3.5 floors are the biggest quantity
-counter=0
+# (2)
+print(data[['floors']].sort_values('floors', ascending=False))  # 3.5 floors are the biggest quantity
+counter = 0
 for floors in data[['floors']]: print(floors)
